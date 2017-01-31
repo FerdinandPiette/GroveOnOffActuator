@@ -2,7 +2,7 @@
 #define GroveOnOffActuator_H
 
 #include <Arduino.h>
-#include "../Grove/Grove.h"
+#include <Grove.h>
 
 class GroveOnOffActuator {
 	private:
