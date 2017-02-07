@@ -9,7 +9,7 @@ void GroveOnOffActuator::_refresh() {
 }
 
 void GroveOnOffActuator::initialize(GrovePin pins) {
-	this->_pin = pins.pin2;	
+	this->_pin = pins.pin1;	
 	pinMode(this->_pin, OUTPUT);
 	this->_refresh();
 }
